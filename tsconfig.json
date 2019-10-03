@@ -19,11 +19,8 @@
       "dom"
     ],
     "paths": {
-      "ng-tiles": [
-        "dist/ng-tiles"
-      ],
-      "ng-tiles/*": [
-        "dist/ng-tiles/*"
+      "@kurtz1993/ng-tiles": [
+        "projects/ng-tiles/src/public-api.ts"
       ]
     }
   },

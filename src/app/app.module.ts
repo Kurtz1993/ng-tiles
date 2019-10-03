@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgTilesModule } from '@kurtz1993/ng-tiles';
 
 import { AppComponent } from './app.component';
 
