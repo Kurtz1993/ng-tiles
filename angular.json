@@ -125,33 +125,33 @@
         }
       }
     },
-    "ng-tiles": {
+    "ngx-cards": {
       "projectType": "library",
-      "root": "projects/ng-tiles",
-      "sourceRoot": "projects/ng-tiles/src",
-      "prefix": "lib",
+      "root": "projects/ngx-cards",
+      "sourceRoot": "projects/ngx-cards/src",
+      "prefix": "",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ng-tiles/tsconfig.lib.json",
-            "project": "projects/ng-tiles/ng-package.json"
+            "tsConfig": "projects/ngx-cards/tsconfig.lib.json",
+            "project": "projects/ngx-cards/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-tiles/src/test.ts",
-            "tsConfig": "projects/ng-tiles/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-tiles/karma.conf.js"
+            "main": "projects/ngx-cards/src/test.ts",
+            "tsConfig": "projects/ngx-cards/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-cards/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng-tiles/tsconfig.lib.json",
-              "projects/ng-tiles/tsconfig.spec.json"
+              "projects/ngx-cards/tsconfig.lib.json",
+              "projects/ngx-cards/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

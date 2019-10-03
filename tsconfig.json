@@ -19,8 +19,8 @@
       "dom"
     ],
     "paths": {
-      "@kurtz1993/ng-tiles": [
-        "projects/ng-tiles/src/public-api.ts"
+      "@kurtz1993/ngx-cards": [
+        "projects/ngx-cards/src/public-api.ts"
       ]
     }
   },
