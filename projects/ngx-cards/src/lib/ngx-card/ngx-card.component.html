@@ -1,1 +1,19 @@
-<p>ngx-card works!</p>
+<div class="ngx-card">
+  <div class="ngx-card__inner">
+    <div class="ngx-card__front">
+      <div class="ngx-card__title" [class.ngx-card__title--custom]="hasCustomTitle" #titleContainer>
+        <ng-content select="[ngx-card-title]"></ng-content>
+      </div>
+      <div class="ngx-card__body">
+        <ng-content select="[ngx-card-body]"></ng-content>
+      </div>
+      <div class="ngx-card__footer">
+        <ng-content select="[ngx-card-footer]"></ng-content>
+      </div>
+    </div>
+
+    <div class="ngx-card__back">
+      <ng-content select="[ngx-card-back]"></ng-content>
+    </div>
+  </div>
+</div>
