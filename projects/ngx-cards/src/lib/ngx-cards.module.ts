@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { NgxCardComponent } from './ngx-card/ngx-card.component';
 
+const publicDeclarations = [NgxCardComponent];
+
 @NgModule({
-  declarations: [NgxCardComponent],
+  declarations: [...publicDeclarations],
   imports: [],
-  exports: [],
+  exports: publicDeclarations,
 })
 export class NgxCardsModule {}
